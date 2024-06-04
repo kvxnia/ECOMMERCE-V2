@@ -10,7 +10,23 @@
 
 
 /* item produc */
+.titulo-1 {
+    font-size: 2.5em;
+    animation: bounce 1s ease-in-out infinite alternate;
+    -webkit-animation: bounce 1s ease-in-out infinite alternate;
 
+    margin: 0 auto;
+
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
 
 
 
