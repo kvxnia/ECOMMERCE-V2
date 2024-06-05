@@ -1,0 +1,29 @@
+.general{
+    background-image: url(../imagenes/fondo-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: brightness(40%); /**/
+}
+
+.login {
+    background: rgba(255, 255, 255, 0.48); /* Fondo casi transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+.login h2 {
+    margin-bottom: 20px;
+
+}
+
+.regist-link{
+    cursor: pointer;
+    color: #007bff;
+}
+
