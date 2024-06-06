@@ -80,6 +80,7 @@ body{
 
 
 
+
 .card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -98,7 +99,11 @@ body{
     background-color: #0056b3;
 }
 
-
+.card p {
+    color: #ffe607;
+    font-weight: bold;
+    text-align: center;
+}
 
 /* Estilos para el nav en modo colapsado como dropdown */
 @media (max-width: 991.98px) { /* El tamaño de breakpoint de Bootstrap para lg es 992px */
