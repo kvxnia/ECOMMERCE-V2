@@ -54,6 +54,21 @@ body{
     }
 }
 
+
+.linea{
+    height: 2px; /* Altura de la línea */
+    width: 80%; /* Ancho deseado de la línea */
+    background-color: #acabab; /* Color de la línea */
+    margin: 0 auto; /* Centra horizontalmente */
+    
+}
+
+
+
+
+
+
+
 .card:hover{
     transform: scale(1.03);
     -webkit-transform: scale(1.03);
