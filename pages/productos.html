@@ -7,36 +7,72 @@
     <title>Hardware general</title>
 
     <!-- Vinculación de Bootstrap CSS para estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
     <!-- Vinculación de Bootstrap JS para funcionalidades -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
     <!-- Estilos personalizados para la página -->
-    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 
 <body>
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Ecommerce</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">Carrito</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header class="cabecera container d-flex align-item-center justify-content-between ">
+        <h1 class="titulo text-center m-0 text-white titulo-1 fs-1">TechPulse</h1>
+        <nav class="navegacion navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0 rounded-3">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav hover-link-nav">
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+                    <li class="nav-item" id="carrito">
+                        <a class="nav-link " href="manteni.html"><i class="fas fa-shopping-cart"></i> <span id="cantidad-carrito">0</span></a>
+                    </li>
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+
+                    <li class="nav-item dropdown text-center p-0 desple-menu ">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark desple-menu-pro" aria-labelledby="navbarDropdown">
+                            <li class="p-0"><a class="dropdown-item" href="teclados.html">Teclado</a></li>
+                            <li class="p-0"><a class="dropdown-item" href="manteni.html">Mouse</a></li>
+                            <li class="p-0"><a class="dropdown-item" href="manteni.html">Tarjetas Grafias</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+                    <li class="nav-item text-nowrap">
+                        <a class="nav-link " href="servicios.html">Servi tech</a>
+                    </li>
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i></a>
+                    </li>
+                    <!-- ===================================== -->
+                    <!-- ===================================== -->
+                </ul>
+                <!-- ===================================== -->
+            </div>
+            <!-- ===================================== -->
+        </nav>
+        <!-- ===================================== -->
+    </header>
     
     <!-- Contenedor principal -->
     <div class="container mt-5">
@@ -48,30 +84,30 @@
             <!-- Fila 1 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 1">
+                    <img src="../assets/imagenes/general/ASUS 24 VG248QG.png" class="card-img-top" alt="Producto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <h5 class="card-title">ASUS 24 VG248QG</h5>
+                        <p class="card-text">$80.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 2">
+                    <img src="../assets/imagenes/general/benq mobiuz 34.webp" class="card-img-top" alt="Producto 2">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>
+                        <h5 class="card-title">Benq Mobiuz 34</h5>
+                        <p class="card-text">$99.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 3">
+                    <img src="../assets/imagenes/general/gigabyte g27fca 27.png" class="card-img-top" alt="Producto 3">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                        <p class="card-text">Descripción breve del producto 3.</p>
+                        <h5 class="card-title">Gigabyte g27fca 27</h5>
+                        <p class="card-text">$205.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
@@ -82,30 +118,30 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 1">
+                    <img src="../assets/imagenes/general/LG ULTRAGEAR 34.webp" class="card-img-top" alt="Producto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <h5 class="card-title">LG ULTRAGEAR 34</h5>
+                        <p class="card-text">$79.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 2">
+                    <img src="../assets/imagenes/teclados/Logitech G pro tkl LOL 2.png" class="card-img-top" alt="Producto 2">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>
+                        <h5 class="card-title">Logitech G PRO TKL</h5>
+                        <p class="card-text">$70.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 3">
+                    <img src="../assets/imagenes/teclados/Redragon Fizz PRO.png" class="card-img-top" alt="Producto 3">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                        <p class="card-text">Descripción breve del producto 3.</p>
+                        <h5 class="card-title">Redragon Fizz PRO</h5>
+                        <p class="card-text">$50.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
@@ -115,30 +151,30 @@
             <!-- Fila 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 1">
+                    <img src="../assets/imagenes/teclados/Redragon shiva.png" class="card-img-top" alt="Producto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <h5 class="card-title">Redragon Shiva</h5>
+                        <p class="card-text">$85.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 2">
+                    <img src="../assets/imagenes/auriculares/auricular corsair.png" class="card-img-top" alt="Producto 2">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>
+                        <h5 class="card-title">Auriculares Corsair</h5>
+                        <p class="card-text">$99.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 3">
+                    <img src="../assets/imagenes/auriculares/auricular-gaming-hyperx-cloud-ii-wireless.png" class="card-img-top" alt="Producto 3">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                        <p class="card-text">Descripción breve del producto 3.</p>
+                        <h5 class="card-title">Hyperx Cloud II</h5>
+                        <p class="card-text">$77.89</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
@@ -148,30 +184,30 @@
             <!-- Fila 4 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 1">
+                    <img src="../assets/imagenes/auriculares/auriculares jbl.png" class="card-img-top" alt="Producto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <h5 class="card-title">Auriculares JBL</h5>
+                        <p class="card-text">$120</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 2">
+                    <img src="../assets/imagenes/auriculares/auriculares logitech kda.png" class="card-img-top" alt="Producto 2">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                        <p class="card-text">Descripción breve del producto 2.</p>
+                        <h5 class="card-title">Logitech KDA</h5>
+                        <p class="card-text">$99.99</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="image.png" class="card-img-top" alt="Producto 3">
+                    <img src="../assets/imagenes/auriculares/auriculares logitech rosa.png" class="card-img-top" alt="Producto 3">
                     <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                        <p class="card-text">Descripción breve del producto 3.</p>
+                        <h5 class="card-title">Logitech rosa</h5>
+                        <p class="card-text">$50</p>
                         <a href="producto.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
@@ -180,21 +216,58 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer text-center mt-5">
-        <div class="container">
-            © 2024 Ecommerce de Hardware:
-            <a href="#" class="text-light">www.ecommercehardware.com</a>
+    <footer class="text-center text-white" style="background-color: #0a4275;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+    
+                <!-- Twitter -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+    
+                <!-- Google -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+    
+                <!-- Instagram -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+    
+                <!-- Linkedin -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+    
+                <!-- Github -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+
+        <!-- Section: CTA -->
+        <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button type="button" class="btn btn-outline-light rounded-pill">
+                Sign up!
+                </button>
+            </p>
+        </section>
+        <!-- Section: CTA -->
         </div>
-        <div>
-            Más sobre nosotros
-            <a href="nosotros.html" class="text-light">aquí</a>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
+        <!-- Copyright -->
     </footer>
 
     <!-- Bibliotecas JS de Bootstrap y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

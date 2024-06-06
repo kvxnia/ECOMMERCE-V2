@@ -1,0 +1,17 @@
+
+        .card-img-top {
+            margin: 10px;
+            border-radius: 5px;
+            width: calc(100% - 20px); /* Ensures image width adjusts with margin */
+        }
+        .card {
+            background-color: #343a40;
+            color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .card p {
+            color: white;
+            text-align:start;
+            font-weight: 100;
+        }
