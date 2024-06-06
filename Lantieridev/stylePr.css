@@ -74,7 +74,7 @@ h2 {
 p {
     color: var(--transparentWhite);
     line-height: 1.5625rem;
-    margin-bottom: 1.5625rem;
+
 }
 
 /*------------ Buttons -----------*/
@@ -120,6 +120,38 @@ button:hover {
     color: var(--veryLightGray);
 }
 
+.cards {
+    width: 20.3125rem;
+    margin: 5.4375rem auto 2.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.cards:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+
+
+
+
+.cards {
+    background-color: #495057;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
 /*--------------------- Footer --------------------*/
 footer {
     font-size: 0.6875rem;
@@ -147,9 +179,7 @@ footer a {
         height: 31.25rem;
     }
 
-    p {
-        margin-bottom: 5rem;
-    }
+   
 }
 
 img {
