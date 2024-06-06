@@ -58,7 +58,7 @@ article {
 
 /*------------ Icons -----------*/
 img {
-    margin-bottom: 2.25rem;
+    margin-bottom: 20px;
 }
 
 /*------------ Titles -----------*/
@@ -68,6 +68,7 @@ h2 {
     font-size: 2.4em;
     text-transform: uppercase;
     margin-bottom: 1.5625rem;
+    text-align: center;
 }
 
 /*------------ Paragraphs -----------*/
@@ -152,6 +153,9 @@ button:hover {
     -o-transition: transform 0.3s ease;
 }
 
+img {
+    margin-left: 59px;
+}
 /*--------------------- Footer --------------------*/
 footer {
     font-size: 0.6875rem;
