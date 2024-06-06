@@ -39,3 +39,8 @@ body {
     padding: 20px 0;
     margin-top: auto; /* Esto hace que el footer se pegue al fondo */
 }
+.card p {
+    color: #ffe607;
+    font-weight: bold;
+    text-align: center;
+}
