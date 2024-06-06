@@ -10,33 +10,74 @@
   <!-- Font Awesome CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   
-    <link rel="stylesheet" href="stylePr.css">
+    <link rel="stylesheet" href="../assets/css/stylePr.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Ecommerce</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+  <header class="cabecera container d-flex align-item-center justify-content-between ">
+    <h1 class="titulo text-center m-0 text-white titulo-1 fs-1">TechPulse</h1>
+    <nav class="navegacion navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0 rounded-3">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
+            <ul class="navbar-nav hover-link-nav">
+                <!-- ===================================== -->
+                <!-- ===================================== -->
+                <li class="nav-item" id="carrito">
+                    <a class="nav-link " href="./pages/manteni.html"><i class="fas fa-shopping-cart"></i> <span id="cantidad-carrito">0</span></a>
                 </li>
+                <!-- ===================================== -->
+                <!-- ===================================== -->
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
+                <!-- ===================================== -->
+                <!-- ===================================== -->
+
+                <li class="nav-item dropdown text-center p-0 desple-menu ">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hardware
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark desple-menu-pro" aria-labelledby="navbarDropdown">
+                        <li class="p-0"><a class="dropdown-item" href="./pages/teclados.html">Teclado</a></li>
+                        <li class="p-0"><a class="dropdown-item" href="./pages/manteni.html">Mouse</a></li>
+                        <li class="p-0"><a class="dropdown-item" href="./pages/manteni.html">Tarjetas Grafias</a></li>
+                    </ul>
+                </li>
+
+                <!-- ===================================== -->
+                <!-- ===================================== -->
+                <li class="nav-item text-nowrap">
+                    <a class="nav-link " href="./pages/servicios.html">Servi tech</a>
+                </li>
+                <!-- ===================================== -->
+                <!-- ===================================== -->
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">Carrito</a>
+                    <a class="nav-link" href="./pages/login.html"><i class="fas fa-sign-in-alt"></i></a>
                 </li>
+                <!-- ===================================== -->
+                <!-- ===================================== -->
             </ul>
+            <!-- ===================================== -->
         </div>
+        <!-- ===================================== -->
     </nav>
+    <!-- ===================================== -->
+</header>
+
+
+<div class="linea mt-3"></div>
+<!-- ===================================== --><!-- ===================================== --><!-- ===================================== -->
+
     
     <section class="main-container">
       <div class="cards">
         <article id="sedans">
-          <img src="contactowasa.png" class="Contacto">
+          <img src="../assets/imagenes/contactowasa.png" class="Contacto">
           <h2>Martín Lantieri</h2>
           <p>
             <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> Linkedin<br>
@@ -48,7 +89,7 @@
       </div>
       <div class="cards">
         <article id="suvs">
-          <img src="contactowasa.png" class="Contacto">
+          <img src="../assets/imagenes/contactowasa.png" class="Contacto">
           <h2>Elias Serrudo</h2>
           <p>
             <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> Linkedin<br>
@@ -60,7 +101,7 @@
       </div>
       <div class="cards">
         <article id="luxury">
-          <img src="contactowasa.png" class="Contacto">
+          <img src="../assets/imagenes/contactowasa.png" class="Contacto">
           <h2>Federico Lopez</h2>
           <p>
             <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> Linkedin<br>
@@ -73,5 +114,73 @@
       </section>
     
 
+
+
+
+
+      <footer class="text-center text-white" style="background-color: #0a4275;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+    
+                <!-- Twitter -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+    
+                <!-- Google -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+    
+                <!-- Instagram -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+    
+                <!-- Linkedin -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+    
+                <!-- Github -->
+                <a class="btn btn-outline-secondary btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+
+        <!-- Section: CTA -->
+        <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button type="button" class="btn btn-outline-light rounded-pill">
+                Sign up!
+                </button>
+            </p>
+        </section>
+        <!-- Section: CTA -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- JavaScript de Bootstrap (opcional, pero recomendado para ciertas funcionalidades) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript de MDBootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/5.1.0/js/mdb.min.js"></script>
+
+
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
